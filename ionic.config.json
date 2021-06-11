@@ -1,0 +1,7 @@
+{
+  "name": "consultDatePage",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

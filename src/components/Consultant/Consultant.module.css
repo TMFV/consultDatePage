@@ -1,0 +1,46 @@
+.consultant__name {
+  display: block;
+  margin: 80px auto 11px auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.consultant__avatar {
+  margin-left: auto;
+  margin-right: 0;
+  border-radius: 4px;
+  width: 144px;
+  height: 144px;
+  background-color: #ade5f4;
+  text-align: end;
+}
+
+.consultant__column {
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.consultant__text {
+  display: block;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b5b5b;
+  text-align: center;
+}
+
+.consultant__time {
+  display: block;
+  margin-top: 12px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+.date__main_container {
+  width: 100%;
+  margin: 27px 0 0 16px;
+}
+  .container {
+    width: 100%;
+    margin: 16px 0 0 32px;
+    background: inherit;
+  }
+  
+  .time__ListScrollable {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin: 2px 0 2px -40px;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .time__ListScrollable::-webkit-scrollbar {
+    -webkit-appearance: none;
+    display: none;
+  }
+  
+  .time__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: auto 16px auto 0px;
+    width: 87px;
+    height: 32px;
+    flex-shrink: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #C1C1C1;
+  }
+  
+  .daysContainer {
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  .date__title_line_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .date__title_text {
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #5b5b5b;
+  }
+  .date__title_buttons {
+    margin-right: 18px;
+  }
+  

@@ -1,0 +1,127 @@
+.date__main_container {
+  margin: 27px 0 0 0;
+}
+.container {
+  display: flex;
+  width: 100%;
+  margin: 16px 0 0 16px;
+  background: inherit;
+}
+/* 
+.buttonWrapper {
+  display: flex;
+  align-items: flex-end;
+  z-index: 2;
+  background: inherit;
+}
+
+.button {
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: 5px;
+} */
+
+.dateListScrollable {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  margin: 2px 0 2px -40px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.dateListScrollable::-webkit-scrollbar {
+  -webkit-appearance: none;
+  display: none;
+}
+
+.monthContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.monthYearLabel {
+  align-self: flex-start;
+  z-index: 3000;
+  font-size: 15px;
+  font-weight: bold;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: max-content;
+  margin: 0 14px 10px 0;
+}
+
+.dateDayItem {
+  /*--background: #f0fbff;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0 16px 0 0px;
+  width: 86px;
+  height: 92px;
+  flex-shrink: 0;
+  border: 1px solid #edeff2;
+
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.04);
+  border-radius: 6px;
+  color: #5b5b5b;
+}
+
+.daysContainer {
+  display: flex;
+  z-index: 1000;
+  color: #5b5b5b;
+}
+
+.dayLabel {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: inherit;
+}
+
+.dateLabel {
+  margin: 4px 0 0 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: inherit;
+}
+.date__toggle_button {
+  background-color: white;
+  padding: 0;
+  margin: 0 6px 0 6px;
+}
+
+.date__title_line_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.date__title_text {
+  margin-left: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5b5b5b;
+}
+.date__title_buttons {
+  margin-right: 18px;
+}
